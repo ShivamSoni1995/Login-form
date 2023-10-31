@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: #1abc9c;
+}
+.container{    
+    width: 380px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.wrapper .header-logo{
+    background-color: #16a085;
+    line-height:80px;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;  
+    padding-left: 20px;
+    text-align: center;
+}
+.wrapper form{
+    padding: 30px 20px 30px 20px;
+}
+.wrapper form .row{
+    height: 45px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+.wrapper form .row input{
+    height:100%;
+    width: 100%;
+    padding-left: 60px;
+}
+.wrapper .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    background-color: #16a085;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 20px;
+}
+.wrapper form .button input{
+    padding-left: 0;
+    background-color: #16a085;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+.wrapper form .button input:hover{
+    background-color: #1abc9c;
+}
+.wrapper .row .pass{
+    padding-top: 8px;
+}
+.wrapper .row .pass a{
+    color: #16a085;
+    font-size: 15px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.wrapper .row .pass a:hover{
+    color:#1abc9c
+}
+.signup-link{
+    text-align: center;
+}
+.signup-link a{
+    color: #16a085;
+}
+
